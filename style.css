@@ -657,7 +657,7 @@ h4 {
     padding: 3rem 3rem;
     margin-bottom: 30px;
     justify-content: center;
-    padding-right: 0;
+    padding-right: 1rem;
   }
   .nav__logo {
     height: 4rem;
@@ -671,7 +671,7 @@ h4 {
   }
 
   .nav__links {
-    gap: 28px;
+    gap: 30px;
   }
 
   .nav__link:link,
