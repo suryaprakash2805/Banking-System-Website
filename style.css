@@ -675,11 +675,13 @@ h4 {
 
   .nav__link:link,
   .nav__link:visited {
-    font-size: 1.2rem;
+    font-size: 1.5 rem;
+    margin-right: 0;
   }
 
   .nav__item {
     margin-left: -4rem;
+    align-self: self-end;
   }
 
   .header {
