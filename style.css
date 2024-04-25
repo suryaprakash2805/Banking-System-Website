@@ -653,22 +653,33 @@ h4 {
   }
 
   .nav {
-    height: 15rem;
+    height: 10rem;
     padding: 3rem 3rem;
     margin-bottom: 30px;
     justify-content: start;
+    padding-right: 0;
   }
   .nav__logo {
-    height: 8rem;
+    height: 4rem;
   }
 
   .banking_system {
-    margin-left: 2rem;
-    font-size: 15px;
+    margin-left: 1rem;
+    font-size: 5px;
+    margin-right: 10rem;
+  }
+
+  .nav__links {
+    gap: 30px;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 1.2rem;
   }
 
   .nav__item {
-    display: none;
+    margin-left: -4rem;
   }
 
   .header {
@@ -683,5 +694,9 @@ h4 {
   .footer__nav {
     flex-wrap: wrap;
     gap: 15px;
+  }
+
+  .lazy-img {
+    filter: blur(0);
   }
 }
