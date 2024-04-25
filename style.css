@@ -656,7 +656,7 @@ h4 {
     height: 10rem;
     padding: 3rem 3rem;
     margin-bottom: 30px;
-    justify-content: start;
+    justify-content: center;
     padding-right: 0;
   }
   .nav__logo {
@@ -665,13 +665,12 @@ h4 {
 
   .banking_system {
     margin-left: 1rem;
-    font-size: 5px;
+    font-size: 15px;
     margin-right: 10rem;
   }
 
   .nav__links {
     gap: 30px;
-    /* width: 350px; */
   }
 
   .nav__link:link,
